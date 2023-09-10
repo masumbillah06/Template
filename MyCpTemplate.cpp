@@ -34,6 +34,12 @@ typedef map<string,int> msi;
 
 int mpow(int base, int exp); 
 const int mod = 1'000'000'007;
+
+void fastIO(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL), cout.tie(NULL);
+}
+
 //===============================================================//
 
 void solve(){
@@ -41,8 +47,8 @@ void solve(){
 }
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL), cout.tie(NULL);
+
+    fastIO();
 
     int t = 1;
     cin >> t;
