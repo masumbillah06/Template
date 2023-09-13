@@ -4,12 +4,6 @@ using namespace std;
 #define gc getchar_unlocked
 #define fo(i,n) for(i=0;i<n;i++)
 #define ll long long
-#define si(x) scanf("%d",&x)
-#define sl(x) scanf("%lld",&x)
-#define ss(s) scanf("%s",s)
-#define pi(x) printf("%d\n",x)
-#define pl(x) printf("%lld\n",x)
-#define ps(s) printf("%s\n",s)
 #define pb push_back
 #define mp make_pair
 #define F first
@@ -31,16 +25,12 @@ typedef vector<vl>	   vvl;
 typedef map<int,int>   mii;
 typedef map<ll,ll>     mll;
 typedef map<string,int> msi;
-
-int mpow(int base, int exp); 
 const int mod = 1'000'000'007;
 
 void fastIO(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL), cout.tie(NULL);
 }
-
-//===============================================================//
 
 void solve(){
     
@@ -57,15 +47,4 @@ int main(){
         solve();
     }
     return 0;
-}
-
-int mpow(int base, int exp){
-    base = base % mod;
-    int result = 1;
-    while(exp > 0){
-        if(exp & 1) result = ((ll)result * base) % mod;
-        base = ((ll)base * base) % mod;
-        exp >>= 1;
-    }
-    return result;
 }
