@@ -2,7 +2,7 @@
 using namespace std;
 
 #define gc getchar_unlocked
-#define fo(i,n) for(i=0;i<n;i++)
+#define fo(i,n) for(int i=0;i<n;i++)
 #define ll long long
 #define pb push_back
 #define mp make_pair
