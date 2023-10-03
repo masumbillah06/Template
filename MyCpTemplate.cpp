@@ -1,7 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-#define gc getchar_unlocked
 #define fo(i,n) for(int i=0;i<n;i++)
 #define ll long long
 #define pb push_back
@@ -10,21 +8,17 @@ using namespace std;
 #define S second
 #define all(x) x.begin(), x.end()
 #define clr(x) memset(x, 0, sizeof(x))
-#define sortall(x) sort(all(x))
 #define tr(it, a) for(auto it = a.begin(); it != a.end(); it++)
 #define PI 3.1415926535897932384626
-typedef pair<int,int>  pii;
-typedef pair<ll,ll>	   pll;
-typedef vector<int>    vi;
-typedef vector<ll>	   vl;
-typedef vector<string> vs;
-typedef vector<pii>	   vpii;
-typedef vector<pll>	   vpll;
-typedef vector<vi>	   vvi;
-typedef vector<vl>	   vvl;
-typedef map<int,int>   mii;
-typedef map<ll,ll>     mll;
+typedef vector<int>     vi;
+typedef vector<ll>	    vll;
+typedef vector<string>  vs;
+typedef vector<vi>	    vvi;
+typedef vector<vll>	    vvll;
+typedef map<int,int>    mii;
+typedef map<ll,ll>      mll;
 typedef map<string,int> msi;
+typedef map<char,int>   mci;
 const int mod = 1'000'000'007;
 
 void fastIO(){
