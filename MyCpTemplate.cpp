@@ -1,20 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-#define fo(i,n) for(int i=0;i<n;i++)
+#define fo(i,a,n) for(int i=a;i<n;i++)
 #define ll long long
 #define pb push_back
 #define mp make_pair
-#define F first
-#define S second
+#define ff first
+#define ss second
 #define all(x) x.begin(), x.end()
+#define revall(x) x.begin(), x.end(), greater<>()
 #define clr(x) memset(x, 0, sizeof(x))
 typedef vector<int>     vi;
-typedef vector<ll>	    vll;
-typedef vector<vi>	    vvi;
-typedef vector<vll>	    vvll;
-typedef map<int,int>    mii;
-typedef map<ll,ll>      mll;
+typedef vector<double>  vd;
+typedef vector<bool>    vb;
+typedef vector<ll>	   vll;
+typedef vector<vi>	   vvi;
+typedef vector<vll>	   vvll;
 const int mod = 1'000'000'007;
 
 void fastIO(){
