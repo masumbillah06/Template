@@ -9,7 +9,6 @@ using namespace std;
 #define clr(x,a) memset(x, a, sizeof(x))
 typedef vector<int>     vi;
 typedef vector<vi>	   vvi;
-typedef vector<double>  vd;
 typedef vector<bool>    vb;
 typedef vector<ll>	   vll;
 const int mod = 1'000'000'007;
