@@ -14,16 +14,20 @@ typedef vector<ll> vll;
 typedef vector<vi> vvi;
 typedef vector<pair<int,int>> vpii;
 
+void file_in_out(){
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
+}
+
 void solve(){
     
 }
 
 int main(){
     fio;
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
+    file_in_out();
 
     int tt=1;
     cin>>tt;
