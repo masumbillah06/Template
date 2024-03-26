@@ -8,9 +8,9 @@ using namespace std;
 #define bb begin()
 #define ee end()
 #define all(x) x.begin(), x.end()
-#define endline '\n'
-#define yes cout<<"YES"<<endline
-#define no cout<<"NO"<<endline
+#define endl '\n'
+#define yes cout<<"YES\n"
+#define no cout<<"NO\n"
 #define fio ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0)
 typedef vector<int> vi;
 typedef vector<ll> vll;
